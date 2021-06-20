@@ -1,20 +1,19 @@
 body {
     width: 100%;
     display: flex;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0px 0px 0px 0px;
 }
 
+/*NAV RELATED*/
 #navbar {
     width: 20%;
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     background-color: rgba(77, 69, 164, 1);
 }
 
 #nav-header {
-    height: 1.5rem;
+    height: 3rem;
     color: white;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
@@ -25,7 +24,24 @@ body {
     border-bottom: 1px solid white;
 }
 
+/*CONTENT RELATED*/
 #main-doc {
     width: 80%;
     margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header {
+    font-size: 28px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    background: rgba(240, 240, 240, 1);
+    color: rgb(50, 50, 50, 1);
+    line-height: 2;
+    padding: 9px;
+    border-radius: 5px;
 }
