@@ -2,6 +2,7 @@ body {
     width: 100%;
     display: flex;
     margin: 0px 0px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*NAV RELATED*/
@@ -10,18 +11,25 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(77, 69, 164, 1);
+    text-indent: 0.5rem;
 }
 
 #nav-header {
-    height: 3rem;
+    height: 4rem;
     color: white;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
+    padding-top: 1.5rem;
+
 }
 
 .nav-link {
+    height: 3rem;
+    color: white;
+    text-decoration: none;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
+    padding-top: 1rem;
 }
 
 /*CONTENT RELATED*/
